@@ -110,7 +110,7 @@ namespace Dindelegan_Andreea_Lab7.Data
 
         internal Task DeleteShopAsync(Shop shop)
         {
-            throw new NotImplementedException();
+            return _database.DeleteAsync(shop);
         }
     }
 
